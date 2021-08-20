@@ -39,6 +39,7 @@ steps:
       **\*.dll
       **\*runsettings
       **\*.csproj
+      **\*.zip
     TargetFolder: '$(build.artifactstagingdirectory)'
 
 - task: DotNetCoreCLI@2
